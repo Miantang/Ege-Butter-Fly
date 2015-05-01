@@ -1,0 +1,28 @@
+# Project: AniOb
+# Makefile created by Dev-C++ 5.6.0
+
+CPP      = g++.exe
+CC       = gcc.exe
+WINDRES  = windres.exe
+OBJ      = ani.o
+LINKOBJ  = ani.o
+LIBS     = -L"C:/ProgramFiles/Dev-Cpp/MinGW32/lib" -L"C:/ProgramFiles/Dev-Cpp/MinGW32/mingw32/lib" -lgraphics -lgdi32 -limm32 -lmsimg32 -lole32 -loleaut32 -lwinmm -luuid -mwindows  -g3
+INCS     = -I"C:/ProgramFiles/Dev-Cpp/MinGW32/include" -I"C:/ProgramFiles/Dev-Cpp/MinGW32/mingw32/include" -I"C:/ProgramFiles/Dev-Cpp/MinGW32/lib/gcc/mingw32/4.8.1/include"
+CXXINCS  = -I"C:/ProgramFiles/Dev-Cpp/MinGW32/include" -I"C:/ProgramFiles/Dev-Cpp/MinGW32/mingw32/include" -I"C:/ProgramFiles/Dev-Cpp/MinGW32/lib/gcc/mingw32/4.8.1/include" -I"C:/ProgramFiles/Dev-Cpp/MinGW32/lib/gcc/mingw32/4.8.1/include/c++"
+BIN      = AniOb.exe
+CXXFLAGS = $(CXXINCS) -g3 -finput-charset=GBK
+CFLAGS   = $(INCS) -g3 -finput-charset=GBK
+RM       = rm -f
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before $(BIN) all-after
+
+clean: clean-custom
+	${RM} $(OBJ) $(BIN)
+
+$(BIN): $(OBJ)
+	$(CPP) $(LINKOBJ) -o $(BIN) $(LIBS)
+
+ani.o: ani.cpp
+	$(CPP) -c ani.cpp -o ani.o $(CXXFLAGS)
