@@ -15,6 +15,7 @@ const int ALPHA = 3;
 const int HOLD = 4;
 const int LEFTALPHA = 5;
 const int RIGHTALPHA = 6;
+const int ALPHAHOLD = 7;
 
 // Combine setcolor and setlinewidth to a single function , for easier converting of Flash code.
 void lineStyle(float, color_t, PIMAGE);
@@ -87,4 +88,5 @@ class Composition {
         Layer* layers;
         int numOfLayers;
         void present(float);
+//        void setLayer(int, Layer);
 };

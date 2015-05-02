@@ -64,6 +64,13 @@ void Image::animation() {
         	if (alpha <= 0)	da = 1;
         	if (alpha >= 0xFF) da = -1;
         	break; 
+        	case ALPHAHOLD:
+             alpha += da;
+        	if (alpha >= 0xFF)  {
+        	    da = 0;
+        	    alpha = 0xFF;
+        	}
+        	break; 
     }
 }
        

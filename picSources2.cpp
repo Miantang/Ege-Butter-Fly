@@ -1,48 +1,48 @@
 #include "picSources2.h"
 
 C1::C1(){
-    animaPreset = ALPHA;
-    alpha = 255;x = 0; y = 0;dx = 0.1; da = 1;isCleared = false; 
+    animaPreset = ALPHAHOLD;
+    alpha = 0;x = 0; y = 0;dx = 0.1; da = 10;isCleared = false; 
     img = newimage(848, 480);
     setbkcolor(0xF1F1F1, img);
     this->draw();
 }
 
 C2::C2(){
-    animaPreset = ALPHA;
-    alpha = 255;x = 0; y = 0;dx = 0.1; da = 1;isCleared = false; 
+    animaPreset = ALPHAHOLD;
+    alpha = 0;x = 0; y = 0;dx = 0.1; da = 10;isCleared = false; 
     img = newimage(848, 480);
     setbkcolor(0xF1F1F1, img);
     this->draw();
 } 
 
 C3::C3(){
-    animaPreset = ALPHA;
-    alpha = 255;x = 0; y = 0;dx = 0.1; da = 1;isCleared = false; 
+    animaPreset = ALPHAHOLD;
+    alpha = 0;x = 0; y = 0;dx = 0.1; da = 10;isCleared = false; 
     img = newimage(848, 480);
     setbkcolor(0xF1F1F1, img);
     this->draw();
 } 
 
 C4::C4(){
-    animaPreset = ALPHA;
-    alpha = 255;x = 0; y = 0;dx = 0.1; da = 1;isCleared = false; 
+    animaPreset = ALPHAHOLD;
+    alpha = 0;x = 0; y = 0;dx = 0.1; da = 10;isCleared = false; 
     img = newimage(848, 480);
     setbkcolor(0xF1F1F1, img);
     this->draw();
 } 
 
 C5::C5(){
-    animaPreset = ALPHA;
-    alpha = 255;x = 0; y = 0;dx = 0.1; da = 1;isCleared = false; 
+    animaPreset = ALPHAHOLD;
+    alpha = 0;x = 0; y = 0;dx = 0.1; da = 10;isCleared = false; 
     img = newimage(848, 480);
     setbkcolor(0xF1F1F1, img);
     this->draw();
 } 
 
 C6::C6(){
-    animaPreset = ALPHA;
-    alpha = 255;x = 0; y = 0;dx = 0.1; da = 1;isCleared = false; 
+    animaPreset = ALPHAHOLD;
+    alpha = 0;x = 0; y = 0;dx = 0.1; da = 10;isCleared = false; 
     img = newimage(848, 480);
     setbkcolor(0xF1F1F1, img);
     this->draw();
