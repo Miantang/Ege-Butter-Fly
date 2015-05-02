@@ -62,9 +62,8 @@
 <p align="center">
 <img src="ReadmeIMG/Ai2.jpg" width="80%">
 </p> 
-<p align="center">
-<img src="Picture\pall.svg" width="80%">
-</p> 
+<embed src="Picture\pall.svg" width="80%"   
+           type="image/svg-xml" />
 
 将下载的MP3文件和《数码宝贝剧场版》视频，截取相关的独白和歌曲，用Adobe Audution剪辑合并成一个新的混音wav文件，同时按照时间轴制作一个lrc文件。
 
