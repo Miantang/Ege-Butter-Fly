@@ -20,16 +20,16 @@
 -----------------------------------------------------------
 
 <p align="center">
-<img src="ReadmeIMG\ScreenShot1.jpg" width="80%">
+<img src="ReadmeIMG/ScreenShot1.jpg" width="80%">
 </p>  
 <p align="center">
-<img src="ReadmeIMG\ScreenShot2.jpg" width="80%">
+<img src="ReadmeIMG/ScreenShot2.jpg" width="80%">
 </p> 
 <p align="center">
-<img src="ReadmeIMG\ScreenShot3.jpg" width="80%">
+<img src="ReadmeIMG/ScreenShot3.jpg" width="80%">
 </p> 
 <p align="center">
-<img src="ReadmeIMG\ScreenShot4.jpg" width="80%">
+<img src="ReadmeIMG/ScreenShot4.jpg" width="80%">
 </p> 
 
 ###制作起因
@@ -57,10 +57,10 @@
 如图所示：
 
 <p align="center">
-<img src="ReadmeIMG\Ai1.jpg" width="80%">
+<img src="ReadmeIMG/Ai1.jpg" width="80%">
 </p> 
 <p align="center">
-<img src="ReadmeIMG\Ai2.jpg" width="80%">
+<img src="ReadmeIMG/Ai2.jpg" width="80%">
 </p> 
 <p align="center">
 <img src="Picture\pall.svg" width="80%">
@@ -69,7 +69,7 @@
 将下载的MP3文件和《数码宝贝剧场版》视频，截取相关的独白和歌曲，用Adobe Audution剪辑合并成一个新的混音wav文件，同时按照时间轴制作一个lrc文件。
 
 <p align="center">
-<img src="ReadmeIMG\Au.jpg" width="80%">
+<img src="ReadmeIMG/Au.jpg" width="80%">
 </p> 
 
 然后写相关的C++ 动画代码
