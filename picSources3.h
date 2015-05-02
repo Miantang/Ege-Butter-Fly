@@ -1,0 +1,56 @@
+#pragma once
+#include <graphics.h>
+#include "animaControll.h"
+
+class Yamato1 : public Image {
+    public :
+        Yamato1();
+        void draw();
+};
+class Yamato2 : public Image {
+    public :
+        Yamato2();
+        void draw();
+};
+class Yamato3 : public Image {
+    public :
+        Yamato3();
+        void draw();
+};
+
+class Mimi1 : public Image {
+    public :
+        Mimi1();
+        void draw();
+};
+class Mimi2 : public Image {
+    public :
+        Mimi2();
+        void draw();
+};
+class Mimi3 : public Image {
+    public :
+        Mimi3();
+        void draw();
+};
+class Mimi4 : public Image {
+    public :
+        Mimi4();
+        void draw();
+};
+
+class Izumi1  : public Image {
+    public :
+        Izumi1();
+        void draw();
+};
+class Izumi2  : public Image {
+    public :
+        Izumi2();
+        void draw();
+};
+class Izumi3 : public Image {
+    public :
+        Izumi3();
+        void draw();
+};
