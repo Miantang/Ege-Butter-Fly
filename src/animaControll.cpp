@@ -1,9 +1,28 @@
+/***************************************************************************
+Copyright (c) 2015- MianTang 
+
+https://github.com/Miantang/Ege-Butter-Fly
+
+Taking part in the mooc class in NetEase of C++ introduction <http://mooc.study.163.com/course/BUPT-1000003015#/info>
+Related to a competition about creating  EGE Draws or Animations .
+
+Image code was edited by Adobe Illustrator from source paintings *.jpg(fetched from Baidu Tieba) to SVG Vector ,
+then convert them to the Cpp code for this software via a software made myself.(Based on Flash Actionscript)
+<https://github.com/Miantang/AsToEge>
+
+This software is released under the MIT License 
+<http://www.opensource.org/licenses/mit-license.php>
+****************************************************************************/
 #include "animaControll.h"
 
+// Combine setcolor and setlinewidth to a single function , for easier converting of Flash code.
 void lineStyle(float thickness, color_t color, PIMAGE img) {
     setcolor(color, img);setlinewidth(thickness, img);
 }
 
+/**
+* @brief Init screen of EGE.
+*/
 Screen::Screen(int width = 640, int height = 480) {
     if ( width >= 2000 || height >= 2000 ||  width <= 0 || height <= 0) {
         char invalid[] = "invalid screen size";
@@ -28,6 +47,9 @@ int Screen::getHeight () {
     return height;
 }
 
+/**
+* @brief Base class for Picture and Text .
+*/
 Image::Image() { };
 Image::~Image() {
     delimage(img);
@@ -77,7 +99,10 @@ void Image::animation() {
         	break; 
     }
 }
-       
+
+/**
+* @brief Text element to display on the screen , extend Image .
+*/    
 Text::Text(int _x, int _y, LPCTSTR outtxt, int preset) {
     isCleared = false;
     animaPreset = preset;
@@ -101,8 +126,10 @@ inline int Text::toCenterY(int y) {
     return  y-textheight(textstring, img)/2;
 }
 
-Layer::Layer(){
-}
+/**
+* @brief Attach timeline to the Image[or its child class] for displaying in its Composition
+*/
+Layer::Layer(){ }
 Layer::Layer(float inTime, float outTime, Image* image) {
     source = image;
     this->inTime = inTime;
@@ -115,6 +142,9 @@ void Layer::init(float inTime, float outTime, Image* image) {
     this->outTime = outTime; 
 }
 
+/**
+* @brief Display the Layer(s) contained ,foreach currentTime to present the elements in proper time on the screen.
+*/
 Composition::Composition(int n, Layer* layers) {
     numOfLayers = n;
     this->layers = layers;
@@ -123,7 +153,7 @@ Composition::Composition(int n, Layer* layers) {
 void Composition::present(float currentTime) {
     for(int i = 0; i < numOfLayers; i++) {
         if(currentTime < layers[i].inTime){
-            //wait;
+            //wait and do nothing
         }else if(currentTime >= layers[i].inTime && currentTime <= layers[i].outTime) {
             layers[i].source->animation();
         }else{
@@ -138,7 +168,7 @@ void Composition::present(float currentTime) {
     
     for(int i = 0; i < numOfLayers; i++) {
         if(currentTime < layers[i].inTime){
-            //wait;
+            //wait and do nothing
         }else if(currentTime >= layers[i].inTime && currentTime <= layers[i].outTime) {
             layers[i].source->render();
         }else{
