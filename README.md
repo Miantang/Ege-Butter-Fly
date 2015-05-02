@@ -20,16 +20,16 @@ You can just download the Butter-Fly.exe and Butter-Fly.wav to have a quick look
 -----------------------------------------------------------
 
 <p align="center">
-<img src="ScreenShot1.jpg" width="80%">
+<img src="ReadmeIMG\ScreenShot1.jpg" width="80%">
 </p>  
 <p align="center">
-<img src="ScreenShot2.jpg" width="80%">
+<img src="ReadmeIMG\ScreenShot2.jpg" width="80%">
 </p> 
 <p align="center">
-<img src="ScreenShot3.jpg" width="80%">
+<img src="ReadmeIMG\ScreenShot3.jpg" width="80%">
 </p> 
 <p align="center">
-<img src="ScreenShot4.jpg" width="80%">
+<img src="ReadmeIMG\ScreenShot4.jpg" width="80%">
 </p> 
 
 ###Origin
@@ -44,23 +44,23 @@ Therefore I desided to create a video show of ["Digital Monster"](https://en.wik
 ###How did I made it
 -----------------------------------------------------------
 
-<pre>
- Cpp IDE :      Dev-C++ version 5.6.0
- Image Source :  Baidu Tieba
- Image Tools :  Adobe Illustrator
- SVG convertion : [AsToEge](https://github.com/Miantang/AsToEge)
- Sound Tool :   Adobe Audution
-</pre>
+
+     Cpp IDE :      Dev-C++ version 5.6.0
+     Image Source :  Baidu Tieba
+     Image Tools :  Adobe Illustrator
+     SVG convertion : AsToEge
+     Sound Tool :   Adobe Audution
+
 
 Image code was edited by Adobe Illustrator from source paintings *.jpg(fetched from Baidu Tieba) to SVG Vector.
 
-Then convert them to the C++ code for this software via a SVG Parser Tool writen myself.(Based on Flash Actionscript)
+Then convert them to the C++ code for this software via a SVG Parser Tool [AsToEge](https://github.com/Miantang/AsToEge) writen myself.(Based on Flash Actionscript)
 
 <p align="center">
-<img src="Ai1.jpg" width="80%">
+<img src="ReadmeIMG\Ai1.jpg" width="80%">
 </p> 
 <p align="center">
-<img src="Ai2.jpg" width="80%">
+<img src="ReadmeIMG\Ai2.jpg" width="80%">
 </p> 
 <p align="center">
 <img src="Picture\pall.svg" width="80%">
@@ -69,7 +69,7 @@ Then convert them to the C++ code for this software via a SVG Parser Tool writen
 Fetched the sound source from the animation video some mp3, combine and edit them in Adobe Audution, and then made a lyric for obtain the timeline.
 
 <p align="center">
-<img src="Au.jpg" width="80%">
+<img src="ReadmeIMG\Au.jpg" width="80%">
 </p> 
 
 Then write the C++ code.
