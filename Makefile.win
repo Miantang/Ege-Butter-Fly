@@ -4,14 +4,14 @@
 CPP      = g++.exe
 CC       = gcc.exe
 WINDRES  = windres.exe
-OBJ      = src/animaControll.o src/Butter-Fly-Main.o src/picSources1.o src/picSources2.o src/picSources3.o src/picSources4.o
-LINKOBJ  = src/animaControll.o src/Butter-Fly-Main.o src/picSources1.o src/picSources2.o src/picSources3.o src/picSources4.o
-LIBS     = -L"C:/ProgramFiles/Dev-Cpp/MinGW32/lib" -L"C:/ProgramFiles/Dev-Cpp/MinGW32/mingw32/lib" -lgraphics -lgdi32 -limm32 -lmsimg32 -lole32 -loleaut32 -lwinmm -luuid -mwindows  -g3
+OBJ      = src/animaControll.o src/Butter-Fly-Main.o src/picSources1.o src/picSources2.o src/picSources3.o src/picSources4.o src/picSources5.o
+LINKOBJ  = src/animaControll.o src/Butter-Fly-Main.o src/picSources1.o src/picSources2.o src/picSources3.o src/picSources4.o src/picSources5.o
+LIBS     = -L"C:/ProgramFiles/Dev-Cpp/MinGW32/lib" -L"C:/ProgramFiles/Dev-Cpp/MinGW32/mingw32/lib" -static-libstdc++ -static-libgcc -lgraphics -lgdi32 -limm32 -lmsimg32 -lole32 -loleaut32 -lwinmm -luuid -mwindows
 INCS     = -I"C:/ProgramFiles/Dev-Cpp/MinGW32/include" -I"C:/ProgramFiles/Dev-Cpp/MinGW32/mingw32/include" -I"C:/ProgramFiles/Dev-Cpp/MinGW32/lib/gcc/mingw32/4.8.1/include"
 CXXINCS  = -I"C:/ProgramFiles/Dev-Cpp/MinGW32/include" -I"C:/ProgramFiles/Dev-Cpp/MinGW32/mingw32/include" -I"C:/ProgramFiles/Dev-Cpp/MinGW32/lib/gcc/mingw32/4.8.1/include" -I"C:/ProgramFiles/Dev-Cpp/MinGW32/lib/gcc/mingw32/4.8.1/include/c++"
 BIN      = Butter-Fly.exe
-CXXFLAGS = $(CXXINCS) -g3 -finput-charset=UTF-8
-CFLAGS   = $(INCS) -g3 -finput-charset=UTF-8
+CXXFLAGS = $(CXXINCS) -finput-charset=UTF-8
+CFLAGS   = $(INCS) -finput-charset=UTF-8
 RM       = rm -f
 
 .PHONY: all all-before all-after clean clean-custom
@@ -41,3 +41,6 @@ src/picSources3.o: src/picSources3.cpp
 
 src/picSources4.o: src/picSources4.cpp
 	$(CPP) -c src/picSources4.cpp -o src/picSources4.o $(CXXFLAGS)
+
+src/picSources5.o: src/picSources5.cpp
+	$(CPP) -c src/picSources5.cpp -o src/picSources5.o $(CXXFLAGS)

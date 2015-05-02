@@ -2,12 +2,12 @@
 
 RectUp::RectUp(){
     animaPreset = HOLD;
-    alpha = 180;x = 0; y = 0; isCleared = false; 
+    alpha = 200;x = 0; y = 0; isCleared = false; 
     img = newimage(848, 35);
     bar(0, 0, 848, 35, img);
     setbkcolor(0xF1F1F1, img);
     setcolor(0x111111, img);
-    imagefilter_blurring(img, 0x90, 60);
+    imagefilter_blurring(img, 0xEC, 80);
 }
 
 RectBottom::RectBottom(){
@@ -18,6 +18,15 @@ RectBottom::RectBottom(){
     setbkcolor(0xF1F1F1, img);
     setcolor(0x111111, img);
     imagefilter_blurring(img, 0x90, 60);
+}
+
+RectFilled::RectFilled(color_t color, int alp, int da){
+    animaPreset = ALPHAHOLD;
+    alpha = alp;x = 0; y = 0; this->da = da; isCleared = false; 
+    img = newimage(848, 480);
+    bar(0, 0, 848, 480, img);
+//    setbkcolor(0xF1F1F1, img);
+    setcolor(color, img);
 }
 
 P1::P1(){

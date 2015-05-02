@@ -10,7 +10,10 @@ class RectBottom : public Image {
     public :
         RectBottom();
 };
-
+class RectFilled: public Image {
+    public :
+        RectFilled(color_t, int, int);
+};
 class P1 : public Image {
     public :
         P1();

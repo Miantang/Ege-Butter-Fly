@@ -70,6 +70,10 @@ void Image::animation() {
         	    da = 0;
         	    alpha = 0xFF;
         	}
+        	if(alpha <= 0){
+        	    da = 0;
+        	    alpha = 0;
+        	}
         	break; 
     }
 }
