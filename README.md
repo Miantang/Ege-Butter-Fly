@@ -45,11 +45,11 @@ Therefore I desided to create a video show of ["Digital Monster"](https://en.wik
 -----------------------------------------------------------
 
 
-     Cpp IDE :      Dev-C++ version 5.6.0
-     Image Source :  Baidu Tieba
-     Image Tools :  Adobe Illustrator
-     SVG convertion : AsToEge
-     Sound Tool :   Adobe Audution
+     Cpp IDE :          Dev-C++ version 5.6.0
+     Image Source :     Baidu Tieba
+     Image Tools :      Adobe Illustrator
+     SVG convertion :   AsToEge
+     Sound Tool :       Adobe Audution
 
 
 Image code was edited by Adobe Illustrator from source paintings *.jpg(fetched from Baidu Tieba) to SVG Vector.
