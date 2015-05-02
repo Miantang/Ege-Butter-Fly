@@ -97,6 +97,8 @@ inline int Text::toCenterY(int y) {
     return  y-textheight(textstring, img)/2;
 }
 
+Layer::Layer(){
+}
 Layer::Layer(float inTime, float outTime, Image* image) {
     source = image;
     this->inTime = inTime;

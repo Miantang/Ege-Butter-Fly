@@ -1,6 +1,6 @@
 [Project]
-FileName=Les1.dev
-Name=Les1
+FileName=Butter-Fly.dev
+Name=Butter-Fly
 Type=1
 Ver=2
 ObjFiles=
@@ -10,7 +10,7 @@ PrivateResource=
 ResourceIncludes=
 MakeIncludes=
 Compiler=-finput-charset=UTF-8_@@_
-CppCompiler=_@@_
+CppCompiler=-finput-charset=UTF-8_@@_
 Linker=-lgraphics -lgdi32 -limm32 -lmsimg32 -lole32 -loleaut32 -lwinmm -luuid -mwindows_@@_
 IsCpp=1
 Icon=
@@ -19,7 +19,7 @@ ObjectOutput=
 LogOutput=
 LogOutputEnabled=0
 OverrideOutput=0
-OverrideOutputName=Les1.exe
+OverrideOutputName=Butter-Fly.exe
 HostApplication=
 UseCustomMakefile=0
 CustomMakefile=
@@ -27,8 +27,8 @@ CommandLine=
 Folders=
 IncludeVersionInfo=0
 SupportXPThemes=0
-CompilerSet=0
-CompilerSettings=0000000000000000101000000
+CompilerSet=1
+CompilerSettings=0000000000000000001000000
 UnitCount=11
 
 [VersionInfo]
@@ -51,9 +51,9 @@ AutoIncBuildNr=0
 SyncProduct=1
 
 [Unit1]
-FileName=lesson2.cpp
+FileName=src\animaControll.cpp
 CompileCpp=1
-Folder=Les1
+Folder=Butter-Fly
 Compile=1
 Link=1
 Priority=1000
@@ -61,9 +61,9 @@ OverrideBuildCmd=0
 BuildCmd=
 
 [Unit2]
-FileName=picSources.h
+FileName=src\animaControll.h
 CompileCpp=1
-Folder=
+Folder=Butter-Fly
 Compile=1
 Link=1
 Priority=1000
@@ -71,9 +71,9 @@ OverrideBuildCmd=0
 BuildCmd=
 
 [Unit3]
-FileName=picSources.cpp
+FileName=src\Butter-Fly-Main.cpp
 CompileCpp=1
-Folder=
+Folder=Butter-Fly
 Compile=1
 Link=1
 Priority=1000
@@ -81,9 +81,9 @@ OverrideBuildCmd=0
 BuildCmd=
 
 [Unit4]
-FileName=animaControll.cpp
+FileName=src\picSources1.cpp
 CompileCpp=1
-Folder=
+Folder=Butter-Fly
 Compile=1
 Link=1
 Priority=1000
@@ -91,9 +91,9 @@ OverrideBuildCmd=0
 BuildCmd=
 
 [Unit5]
-FileName=animaControll.h
+FileName=src\picSources1.h
 CompileCpp=1
-Folder=
+Folder=Butter-Fly
 Compile=1
 Link=1
 Priority=1000
@@ -101,9 +101,9 @@ OverrideBuildCmd=0
 BuildCmd=
 
 [Unit6]
-FileName=picSources2.h
+FileName=src\picSources2.cpp
 CompileCpp=1
-Folder=
+Folder=Butter-Fly
 Compile=1
 Link=1
 Priority=1000
@@ -111,9 +111,9 @@ OverrideBuildCmd=0
 BuildCmd=
 
 [Unit7]
-FileName=picSources2.cpp
+FileName=src\picSources2.h
 CompileCpp=1
-Folder=
+Folder=Butter-Fly
 Compile=1
 Link=1
 Priority=1000
@@ -121,9 +121,9 @@ OverrideBuildCmd=0
 BuildCmd=
 
 [Unit8]
-FileName=picSources3.h
+FileName=src\picSources3.cpp
 CompileCpp=1
-Folder=
+Folder=Butter-Fly
 Compile=1
 Link=1
 Priority=1000
@@ -131,9 +131,9 @@ OverrideBuildCmd=0
 BuildCmd=
 
 [Unit9]
-FileName=picSources3.cpp
+FileName=src\picSources3.h
 CompileCpp=1
-Folder=
+Folder=Butter-Fly
 Compile=1
 Link=1
 Priority=1000
@@ -141,9 +141,9 @@ OverrideBuildCmd=0
 BuildCmd=
 
 [Unit10]
-FileName=picSources4.cpp
+FileName=src\picSources4.cpp
 CompileCpp=1
-Folder=
+Folder=Butter-Fly
 Compile=1
 Link=1
 Priority=1000
@@ -151,9 +151,9 @@ OverrideBuildCmd=0
 BuildCmd=
 
 [Unit11]
-FileName=picSources4.h
+FileName=src\picSources4.h
 CompileCpp=1
-Folder=
+Folder=Butter-Fly
 Compile=1
 Link=1
 Priority=1000

@@ -1,17 +1,17 @@
-# Project: Les1
+# Project: Butter-Fly
 # Makefile created by Dev-C++ 5.6.0
 
-CPP      = g++.exe -D__DEBUG__
-CC       = gcc.exe -D__DEBUG__
+CPP      = g++.exe
+CC       = gcc.exe
 WINDRES  = windres.exe
-OBJ      = lesson2.o picSources.o animaControll.o picSources2.o picSources3.o picSources4.o
-LINKOBJ  = lesson2.o picSources.o animaControll.o picSources2.o picSources3.o picSources4.o
-LIBS     = -L"C:/ProgramFiles/Dev-Cpp/MinGW32/lib" -L"C:/ProgramFiles/Dev-Cpp/MinGW32/mingw32/lib" -static-libstdc++ -static-libgcc -lgraphics -lgdi32 -limm32 -lmsimg32 -lole32 -loleaut32 -lwinmm -luuid -mwindows  -pg -g3
+OBJ      = src/animaControll.o src/Butter-Fly-Main.o src/picSources1.o src/picSources2.o src/picSources3.o src/picSources4.o
+LINKOBJ  = src/animaControll.o src/Butter-Fly-Main.o src/picSources1.o src/picSources2.o src/picSources3.o src/picSources4.o
+LIBS     = -L"C:/ProgramFiles/Dev-Cpp/MinGW32/lib" -L"C:/ProgramFiles/Dev-Cpp/MinGW32/mingw32/lib" -lgraphics -lgdi32 -limm32 -lmsimg32 -lole32 -loleaut32 -lwinmm -luuid -mwindows  -g3
 INCS     = -I"C:/ProgramFiles/Dev-Cpp/MinGW32/include" -I"C:/ProgramFiles/Dev-Cpp/MinGW32/mingw32/include" -I"C:/ProgramFiles/Dev-Cpp/MinGW32/lib/gcc/mingw32/4.8.1/include"
 CXXINCS  = -I"C:/ProgramFiles/Dev-Cpp/MinGW32/include" -I"C:/ProgramFiles/Dev-Cpp/MinGW32/mingw32/include" -I"C:/ProgramFiles/Dev-Cpp/MinGW32/lib/gcc/mingw32/4.8.1/include" -I"C:/ProgramFiles/Dev-Cpp/MinGW32/lib/gcc/mingw32/4.8.1/include/c++"
-BIN      = Les1.exe
-CXXFLAGS = $(CXXINCS) -pg -g3
-CFLAGS   = $(INCS) -pg -g3 -finput-charset=UTF-8
+BIN      = Butter-Fly.exe
+CXXFLAGS = $(CXXINCS) -g3 -finput-charset=UTF-8
+CFLAGS   = $(INCS) -g3 -finput-charset=UTF-8
 RM       = rm -f
 
 .PHONY: all all-before all-after clean clean-custom
@@ -24,20 +24,20 @@ clean: clean-custom
 $(BIN): $(OBJ)
 	$(CPP) $(LINKOBJ) -o $(BIN) $(LIBS)
 
-lesson2.o: lesson2.cpp
-	$(CPP) -c lesson2.cpp -o lesson2.o $(CXXFLAGS)
+src/animaControll.o: src/animaControll.cpp
+	$(CPP) -c src/animaControll.cpp -o src/animaControll.o $(CXXFLAGS)
 
-picSources.o: picSources.cpp
-	$(CPP) -c picSources.cpp -o picSources.o $(CXXFLAGS)
+src/Butter-Fly-Main.o: src/Butter-Fly-Main.cpp
+	$(CPP) -c src/Butter-Fly-Main.cpp -o src/Butter-Fly-Main.o $(CXXFLAGS)
 
-animaControll.o: animaControll.cpp
-	$(CPP) -c animaControll.cpp -o animaControll.o $(CXXFLAGS)
+src/picSources1.o: src/picSources1.cpp
+	$(CPP) -c src/picSources1.cpp -o src/picSources1.o $(CXXFLAGS)
 
-picSources2.o: picSources2.cpp
-	$(CPP) -c picSources2.cpp -o picSources2.o $(CXXFLAGS)
+src/picSources2.o: src/picSources2.cpp
+	$(CPP) -c src/picSources2.cpp -o src/picSources2.o $(CXXFLAGS)
 
-picSources3.o: picSources3.cpp
-	$(CPP) -c picSources3.cpp -o picSources3.o $(CXXFLAGS)
+src/picSources3.o: src/picSources3.cpp
+	$(CPP) -c src/picSources3.cpp -o src/picSources3.o $(CXXFLAGS)
 
-picSources4.o: picSources4.cpp
-	$(CPP) -c picSources4.cpp -o picSources4.o $(CXXFLAGS)
+src/picSources4.o: src/picSources4.cpp
+	$(CPP) -c src/picSources4.cpp -o src/picSources4.o $(CXXFLAGS)
