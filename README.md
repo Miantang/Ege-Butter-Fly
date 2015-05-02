@@ -1,22 +1,22 @@
 
 
-###A video show about Digimon made by C plus plus
+###一个用C++写的《数码宝贝》演示PV
 -----------------------------------------------------------
 
-[Readme 中文](https://github.com/Miantang/Ege-Butter-Fly/tree/Chinese)
+[Readme English](https://github.com/Miantang/Ege-Butter-Fly/tree/master)
 
-Based on [EGE (Easy Graphics Engine)](https://github.com/misakamm/xege), which is a easy graphic library in Winodows
+基于 [EGE (Easy Graphics Engine)](https://github.com/misakamm/xege), 是windows下的简易绘图库，是一个类似BGI(graphics.h)的面向C/C++语言新手的图形库，它的目标也是为了替代TC的BGI库而存在。
 
-###Geeting
+###如何获得
 
     git clone https://github.com/Miantang/Ege-Butter-Fly.git
 
-or [Download Zip](https://github.com/Miantang/Ege-Butter-Fly/archive/master.zip)
+或者 [Download Zip](https://github.com/Miantang/Ege-Butter-Fly/archive/master.zip)
 
-You can just download the Butter-Fly.exe and Butter-Fly.wav to have a quick look.
+你可以仅仅下载 Butter-Fly.exe 可执行程序和 Butter-Fly.wav 音频文件来快速观看。
 
 
-###ScreenShot
+###视频截图
 -----------------------------------------------------------
 
 <p align="center">
@@ -32,7 +32,7 @@ You can just download the Butter-Fly.exe and Butter-Fly.wav to have a quick look
 <img src="ReadmeIMG\ScreenShot4.jpg" width="80%">
 </p> 
 
-###Origin
+###制作起因
 -----------------------------------------------------------
 
 I had taken part in the mooc class in [NetEase Study](http://study.163.com/) of [C++ introduction](http://mooc.study.163.com/course/BUPT-1000003015#/info).
@@ -45,11 +45,11 @@ Therefore I desided to create a video show of ["Digital Monster"](https://en.wik
 -----------------------------------------------------------
 
 
-     Cpp IDE :          Dev-C++ version 5.6.0
-     Image Source :     Baidu Tieba
-     Image Tools :      Adobe Illustrator
-     SVG convertion :   AsToEge
-     Sound Tool :       Adobe Audution
+     C++ 开发环境 :  Dev-C++ version 5.6.0
+     图源 :          百度贴吧 数码宝贝
+     图形工具 :      Adobe Illustrator
+     SVG 转换器 :    AsToEge
+     音频工具 :      Adobe Audution
 
 
 Image code was edited by Adobe Illustrator from source paintings *.jpg(fetched from Baidu Tieba) to SVG Vector.
