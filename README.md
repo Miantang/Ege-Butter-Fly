@@ -3,7 +3,7 @@
 ###一个用C++写的《数码宝贝》演示PV
 -----------------------------------------------------------
 
-[Readme English](https://github.com/Miantang/Ege-Butter-Fly/tree/master#a-video-show-about-digimon-made-by-c++)
+[Readme English](https://github.com/Miantang/Ege-Butter-Fly/tree/master#a-video-show-about-digimon-made-by-c)
 
 基于 [EGE (Easy Graphics Engine)](https://github.com/misakamm/xege), 是Windows下的简易绘图库，是一个类似BGI(graphics.h)的面向C/C++语言新手的图形库，它的目标也是为了替代TC的BGI库而存在。
 
