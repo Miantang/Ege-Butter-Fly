@@ -1,6 +1,6 @@
 
 
-###一个用C++写的《数码宝贝》演示PV
+###一个用C++写的《数码宝贝》演示MV
 -----------------------------------------------------------
 
 [Readme English](https://github.com/Miantang/Ege-Butter-Fly/tree/master#a-video-show-about-digimon-made-by-c)
@@ -15,6 +15,8 @@
 或者 [下载 Zip](https://github.com/Miantang/Ege-Butter-Fly/archive/master.zip)
 
 你可以仅仅下载 [Butter-Fly.exe](https://github.com/Miantang/Ege-Butter-Fly/blob/master/Butter-Fly.exe?raw=true) 可执行程序和 [Butter-Fly.wav](https://github.com/Miantang/Ege-Butter-Fly/blob/master/Butter-Fly.wav?raw=true) 音频文件来快速观看。
+
+[百度网盘](http://pan.baidu.com/s/1o6olTYa)
 
 
 ###视频截图
