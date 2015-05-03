@@ -3,7 +3,7 @@
 ###A video show about Digimon made by C plus plus
 -----------------------------------------------------------
 
-[Readme 中文](https://github.com/Miantang/Ege-Butter-Fly/tree/Chinese)
+[Readme 中文](https://github.com/Miantang/Ege-Butter-Fly/tree/Chinese#%E4%B8%80%E4%B8%AA%E7%94%A8c%E5%86%99%E7%9A%84%E6%95%B0%E7%A0%81%E5%AE%9D%E8%B4%9D%E6%BC%94%E7%A4%BApv)
 
 Based on [EGE (Easy Graphics Engine)](https://github.com/misakamm/xege), which is a easy graphic library in Winodows
 
