@@ -37,7 +37,7 @@ You can just download the [Butter-Fly.exe](https://github.com/Miantang/Ege-Butte
 
 I had taken part in the mooc class in [NetEase Study](http://study.163.com/) of [C++ introduction](http://mooc.study.163.com/course/BUPT-1000003015#/info).
 
-And the competition about  about creating  [EGE Draws or Animations](https://github.com/misakamm/xege) attacted me. 
+And the competition about  about creating  [EGE Draws or Animations](https://github.com/misakamm/xege) attracted me. 
 
 Therefore I desided to create a video show of ["Digital Monster"](https://en.wikipedia.org/wiki/Digimon) for a fifteen years' celebration.
 
