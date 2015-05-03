@@ -15,6 +15,7 @@ or [Download Zip](https://github.com/Miantang/Ege-Butter-Fly/archive/master.zip)
 
 You can just download the [Butter-Fly.exe](https://github.com/Miantang/Ege-Butter-Fly/blob/master/Butter-Fly.exe?raw=true) and [Butter-Fly.wav](https://github.com/Miantang/Ege-Butter-Fly/blob/master/Butter-Fly.wav?raw=true) to have a quick look.
 
+[Baidu NetDisk](http://pan.baidu.com/s/1o6olTYa)
 
 ###ScreenShot
 -----------------------------------------------------------
