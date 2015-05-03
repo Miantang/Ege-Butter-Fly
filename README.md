@@ -14,7 +14,7 @@
 
 或者 [下载 Zip](https://github.com/Miantang/Ege-Butter-Fly/archive/master.zip)
 
-你可以仅仅下载 Butter-Fly.exe 可执行程序和 Butter-Fly.wav 音频文件来快速观看。
+你可以仅仅下载 [Butter-Fly.exe](https://github.com/Miantang/Ege-Butter-Fly/blob/master/Butter-Fly.exe?raw=true) 可执行程序和 [Butter-Fly.wav](https://github.com/Miantang/Ege-Butter-Fly/blob/master/Butter-Fly.wav?raw=true) 音频文件来快速观看。
 
 
 ###视频截图
