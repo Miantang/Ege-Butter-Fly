@@ -3,7 +3,7 @@
 ###一个用C++写的《数码宝贝》演示MV
 -----------------------------------------------------------
 
-[Readme English](https://github.com/Miantang/Ege-Butter-Fly/tree/master#a-video-show-about-digimon-made-by-c)
+[Readme English](https://github.com/Miantang/Ege-Butter-Fly/tree/master#a-music-video-about-digimon-made-by-c)
 
 基于 [EGE (Easy Graphics Engine)](https://github.com/misakamm/xege), 是Windows下的简易绘图库，是一个类似BGI(graphics.h)的面向C/C++语言新手的图形库，它的目标也是为了替代TC的BGI库而存在。
 
@@ -64,9 +64,6 @@
 </p> 
 <p align="center">
 <img src="ReadmeIMG/Ai2.jpg" width="80%">
-</p> 
-<p align="center">
-<img src="Picture/pall.svg" width="80%">
 </p> 
 将下载的MP3文件和《数码宝贝剧场版》视频，截取相关的独白和歌曲，用Adobe Audution剪辑合并成一个新的混音wav文件，同时按照时间轴制作一个lrc文件。
 
