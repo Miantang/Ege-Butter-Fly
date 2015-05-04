@@ -51,7 +51,6 @@ int main()
     // 过场的 白屏和黑屏 
     RectFilled r3(0x0, 0.1, 5);RectFilled r4(0xFCFCFC, 0xFE, -5);RectFilled r5(0x0, 0.1, 5);
     
-    
     // ------------------- 屏幕装饰 ---------------------
     RectUp r1;RectBottom r2; 
     Text flowerup(0, 0, "▓◆**★**◆※◆**★**◆※**★**◆※◆**★**◆▓◆**★**◆", HOLD);
@@ -118,9 +117,7 @@ int main()
     l[67].init(158.7, 159.1, &ym1); l[68].init(159.2, 159.6, &ym2); l[69].init(159.7, 160.1, &ym3); 
     l[70].init(160.4, 160.8, &mm1); l[71].init(160.9, 161.3, &mm2); l[72].init(161.4, 161.8, &mm3);   l[73].init(161.9, 162.3, &mm4);
     l[74].init(162.4, 162.7, &iz1); l[75].init(162.8, 163.1, &iz2); l[76].init(163.2, 163.5, &iz3); 
-    
     l[77].init(165.2, 170.1, &plast); l[78].init(165.2, 178.1, &thanks);  l[79].init(170.2, 178.1, &pall); 
-    
     
     // 主合成 
     Composition mainComp(80, l);

@@ -28,7 +28,7 @@ Screen::Screen(int width = 640, int height = 480) {
         char invalid[] = "invalid screen size";
         outtextxy(0, 0, invalid);
         exit(0);
-    }else{
+    } else {
         this->width = width;
         this->height = height;
         initgraph(this->width, this->height);
@@ -50,7 +50,7 @@ int Screen::getHeight () {
 /**
 * @brief Base class for Picture and Text .
 */
-Image::Image() { };
+Image::Image() {};
 Image::~Image() {
     delimage(img);
 };
@@ -86,8 +86,8 @@ void Image::animation() {
         	if (alpha <= 0)	da = 1;
         	if (alpha >= 0xFF) da = -1;
         	break; 
-        	case ALPHAHOLD:
-             alpha += da;
+    	case ALPHAHOLD:
+            alpha += da;
         	if (alpha >= 0xFF)  {
         	    da = 0;
         	    alpha = 0xFF;
@@ -129,7 +129,7 @@ inline int Text::toCenterY(int y) {
 /**
 * @brief Attach timeline to the Image[or its child class] for displaying in its Composition
 */
-Layer::Layer(){ }
+Layer::Layer(){}
 Layer::Layer(float inTime, float outTime, Image* image) {
     source = image;
     this->inTime = inTime;

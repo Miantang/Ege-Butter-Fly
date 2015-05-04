@@ -1,6 +1,6 @@
 
 
-###A video show about Digimon made by C++
+###A music video about Digimon made by C++
 -----------------------------------------------------------
 
 [Readme 中文](https://github.com/Miantang/Ege-Butter-Fly/tree/Chinese#%E4%B8%80%E4%B8%AA%E7%94%A8c%E5%86%99%E7%9A%84%E6%95%B0%E7%A0%81%E5%AE%9D%E8%B4%9D%E6%BC%94%E7%A4%BApv)
@@ -62,9 +62,6 @@ Then convert them to the C++ code for this software via a SVG Parser Tool [AsToE
 </p> 
 <p align="center">
 <img src="ReadmeIMG/Ai2.jpg" width="80%">
-</p> 
-<p align="center">
-<img src="Picture/pall.svg" width="80%">
 </p> 
 
 Fetched the sound source from the animation video some mp3, combine and edit them in Adobe Audution, and then made a lyric for obtain the timeline.
