@@ -84,7 +84,7 @@
 -----------------------------------------------------------
 
     博客:   http://ppii.in
-    邮箱:  peipenglu@163.com
+    邮箱:  jifeng3154@hotmail.com
     提交问题:  https://github.com/Miantang/Ege-Butter-Fly/issues
 
 ###许可证
