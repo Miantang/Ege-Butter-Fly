@@ -82,7 +82,7 @@ I'll be really appreciative of your attention.
 -----------------------------------------------------------
 
     Blog:   http://ppii.in
-    Email:  peipenglu@163.com
+    Email:  jifeng3154@hotmail.com
     Issue:  https://github.com/Miantang/Ege-Butter-Fly/issues
 
 ###License
