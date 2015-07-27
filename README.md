@@ -8,7 +8,7 @@
 
 Based on [EGE (Easy Graphics Engine)](https://github.com/misakamm/xege), which is an easy graphic library in Windows
 
-###Geeting
+###Get it
 
     git clone https://github.com/Miantang/Ege-Butter-Fly.git
 
