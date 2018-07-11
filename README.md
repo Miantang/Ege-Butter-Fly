@@ -8,7 +8,7 @@ A music video about Digimon made by C++
 
 Based on [EGE (Easy Graphics Engine)](https://github.com/misakamm/xege), which is an easy graphic library in Windows
 
-###Get it
+### Get it
 
     git clone https://github.com/Miantang/Ege-Butter-Fly.git
 
@@ -18,8 +18,7 @@ You can just download the [Butter-Fly.exe](https://github.com/Miantang/Ege-Butte
 
 [Baidu NetDisk](http://pan.baidu.com/s/1o6olTYa)
 
-###ScreenShot
------------------------------------------------------------
+### ScreenShot
 
 <p align="center">
 <img src="ReadmeIMG/ScreenShot1.jpg" width="80%">
@@ -34,8 +33,7 @@ You can just download the [Butter-Fly.exe](https://github.com/Miantang/Ege-Butte
 <img src="ReadmeIMG/ScreenShot4.jpg" width="80%">
 </p> 
 
-###Origin
------------------------------------------------------------
+### Origin
 
 I had taken part in the mooc class in [NetEase Study](http://study.163.com/) of [C++ introduction](http://mooc.study.163.com/course/BUPT-1000003015#/info).
 
@@ -43,8 +41,7 @@ And the competition about  about creating  [EGE Draws or Animations](https://git
 
 Therefore I desided to create a video show of ["Digital Monster"](https://en.wikipedia.org/wiki/Digimon) for a fifteen years' celebration.
 
-###How did I made it
------------------------------------------------------------
+### How did I made it
 
 
      Cpp IDE :          Dev-C++ version 5.6.0
@@ -79,15 +76,13 @@ Be my guest and welcome to fork or star it .
 
 I'll be really appreciative of your attention.
 
-###Contact
------------------------------------------------------------
+### Contact
 
-    Blog:   http://ppii.in
+    Blog:   https://miantang.me
     Email:  miantang.cn@hotmail.com
     Issue:  https://github.com/Miantang/Ege-Butter-Fly/issues
 
-###License
------------------------------------------------------------
+### License
 
 This software is released under the MIT License 
 
